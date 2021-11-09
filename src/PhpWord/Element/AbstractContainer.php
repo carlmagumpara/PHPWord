@@ -239,7 +239,7 @@ abstract class AbstractContainer extends AbstractElement
             'TrackChange'   => $generalContainers,
             'TextRun'       => array('Section', 'Header', 'Footer', 'Cell', 'TextBox', 'TrackChange', 'ListItemRun', 'TextRun'),
             'ListItem'      => array('Section', 'Header', 'Footer', 'Cell', 'TextBox'),
-            'ListItemRun'   => array('Section', 'Header', 'Footer', 'Cell', 'TextBox'),
+            'ListItemRun'   => array('Section', 'Header', 'Footer', 'Cell', 'TextBox', 'TextRun'),
             'Table'         => array('Section', 'Header', 'Footer', 'Cell', 'TextBox'),
             'CheckBox'      => array('Section', 'Header', 'Footer', 'Cell', 'TextRun'),
             'TextBox'       => array('Section', 'Header', 'Footer', 'Cell'),
